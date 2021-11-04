@@ -1,11 +1,10 @@
-from shutil import copy2
+from library.jupyter_notebook_lib import *
+from library.jupyter_jsonfiles_lib import *
 
-from jupyter_notebook_lib import *
-from jupyter_jsonfiles_lib import *
+source_path = "../examples"
+source_file = "input_files/pandas_examples.ipynb"
+destination_file = "output_files/pandas_toc.txt"
 
-source_path = "C:/Users/Serge Louvet/Box Sync/LittleFolder/Projects/2021/B2B_DataEngineering/dev/pandas_cheat_code"
-source_file = "pandas_cheat_code.ipynb"
-destination_file = "pandas_toc.py"
 
 input_notebook_path = source_path + "/" + source_file
 output_python_path = source_path + "/" + destination_file
