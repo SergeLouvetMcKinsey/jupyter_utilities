@@ -1,10 +1,10 @@
 #
 # Jupyter Notebook conversion utility version 0.2
-# Converted on 2021-11-04 15:53:11
+# Converted on 2021-11-04 16:04:11
 #
 # Cell 1
-!pip install pandas
-!pip install openpyxl
+# !pip install pandas
+# !pip install openpyxl
 
 print("Done with cell 1")
 

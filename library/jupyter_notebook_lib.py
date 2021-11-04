@@ -74,6 +74,7 @@ class JupyterCell:
     def get_table_of_content_elements(self):
         return []
 
+
 class JupyterCellMarkdown(JupyterCell):
     def __init__(self):
         pass
@@ -89,7 +90,6 @@ class JupyterCellMarkdown(JupyterCell):
                 source_list.append(source_line)
 
         return source_list
-
 
 
 class JupyterCellCode(JupyterCell):
@@ -155,6 +155,7 @@ class JupyterCellCode(JupyterCell):
             source_list.append("")
 
         return source_list
+
 
 class JupyterNotebook:
     def __init__(self):

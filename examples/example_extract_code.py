@@ -17,7 +17,10 @@ nb.load_from_json(input_notebook_json)
 nb.clear_cells_output()
 nb.remove_empty_cells()
 
-extracted_python_code = nb.get_notebook_source([], {}, True)
+lines_to_comment = ["!pip install pandas","!pip install openpyxl"]
+data_path_resolution = {}
+
+extracted_python_code = nb.get_notebook_source(lines_to_comment, data_path_resolution, True)
 
 with open(output_python_path, "w") as file:
     file.writelines("\n".join(extracted_python_code))
