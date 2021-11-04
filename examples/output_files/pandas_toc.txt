@@ -1,0 +1,42 @@
+# Pandas cheat code
+## Introduction
+## How to leverage it
+### 1. Getting started
+#### 1.1. Setup libraries
+#### 1.2. About pandas dataframes
+
+### 2. Read data (inputdata)
+#### 2.1. Load text file (.csv, .txt, ...)
+#### 2.2. Load xlsx
+#### 2.3 Get basic information about the loaded dataset
+
+### 3. Explore data (browse)
+#### 3.1. Remove column number display limitation
+#### 3.2. Display top n rows
+#### 3.3. Display all rows
+#### 3.4. Quick statistic of numerical columns
+#### 3.5. Distinct values of a column
+
+### 4. Select data (select)
+#### 4.1. Display columns and types
+#### 4.2. Display number of rows
+#### 4.3. Keep only a subset of columns
+#### 4.4. Drop columns
+#### 4.5. Rename columns
+
+### 4.6. Add columns
+#### 4.7. Change data type
+
+### 5. Transpose (transpose)
+### 6. Merge datasets (join)
+#### 6.1. Examples of joins supported by the pandas merge() function
+#### 6.2. Using information returned by merge() to run right_only and left_only joins
+#### 6.3. Data preparation for examples based on our transaction data
+#### 6.3. Running an inner join on our transaction data
+#### 6.4. Running a left join ( VLookup() ) on our transaction data
+#### 6.4. Running a right-only join to find product without any transactions
+
+### xx. Row by row transformations
+### Write data (outputdata)
+#### Write to csv
+#### Write to xlsx
